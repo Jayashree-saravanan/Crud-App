@@ -8,9 +8,9 @@ export default function Home() {
     const history = useNavigate();
 
 const editUser = (id, name ,age)=>{
-    localStorage.setItem('Name,name')
-    localStorage.setItem('Age,age')
-    localStorage.setItem('Id,id')
+    localStorage.setItem('Name',name)
+    localStorage.setItem('Age',age)
+    localStorage.setItem('Id',id)
 
 }
 
