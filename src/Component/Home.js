@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Button, Table } from 'react-bootstrap'
 import "bootstrap/dist/css/bootstrap.min.css"
 import {student} from './student'
@@ -19,7 +19,6 @@ const editUser = (id, name ,age)=>{
             return e.Id
         }).indexOf(Id)
         student.splice(index,1)
-        console.log(deleteUser)
         history('/')
     }
    

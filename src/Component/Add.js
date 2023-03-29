@@ -3,7 +3,7 @@ import { Button, Form } from 'react-bootstrap'
 import "bootstrap/dist/css/bootstrap.min.css"
 import {student} from './student'
 import {v4 as uuid} from "uuid"
-import {Link,useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 
 
 function Add() {
